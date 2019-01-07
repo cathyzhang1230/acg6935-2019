@@ -8,7 +8,11 @@ Compute the aggregate life-time sales for each firm in Funda. Then, aggregate by
 
 ## 2. Missing SICH
 
-For the observations in Funda, inspect by year how often SICH is missing. 
+For the observations in Funda, compute by year how often SICH is missing. 
+
+The output should show the percentage missing SICH for each year. 
+
+> You can use fyears starting at 2000.
 
 
 
@@ -17,7 +21,7 @@ For the observations in Funda, inspect by year how often SICH is missing.
 For each firm in Funda count the number of years of data before prcc_f is non-missing.
 (For example, if a firm is added to Funda in 2004, and prcc_f only is available for the first time in 2006, then there are 2 years of data for that firm)
 
-
+Then, give an overview of the frequency (how often 0 years missing, how often 1 year missing, etc).
 
 ## 4. Header variables
 
