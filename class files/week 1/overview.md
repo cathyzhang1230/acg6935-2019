@@ -6,7 +6,7 @@
 ## SAS Topics Tuesday
 
 - Remote submit
-- Datastep: cmiss, (<expression>), retain, by, output
+- Datastep: cmiss, (expression), retain, by, output
 - Approximate randomization
 
 
