@@ -1,27 +1,27 @@
-# Tuesday 
+# Monday 
 
 ## Topics week 1
 
 
-## SAS Topics Tuesday
+## SAS Topics Monday
 
 - Remote submit
 - Datastep: cmiss, (expression), retain, by, output
 - Approximate randomization
 
 
-## Datasets Tuesday
+## Datasets Monday
 
 - Compustat Fundamental Annual (Funda)
 
 
-## SAS Topics Thursday
+## SAS Topics Wednesday
 
 - Proc Means
 - Binning
 
 
-## Datasets Thursday
+## Datasets Wednesday
 
 - Compustat Company 
 
