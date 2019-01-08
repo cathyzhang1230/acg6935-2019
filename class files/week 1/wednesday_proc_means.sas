@@ -64,7 +64,7 @@ proc means data=myComp NOPRINT; /* suppress output to screen */
   /* but, do output to dataset */
   OUTPUT OUT=myOutput n= mean= max= median= stddev= /autoname;
   var roa mtb size;
-  by sich; /* without gvkey would give full sample statistics */
+  by sich; /* statistics by sich */
 run;
 
 /*  Statistics by year => by fyear */
@@ -73,7 +73,7 @@ proc means data=myComp NOPRINT; /* suppress output to screen */
   /* but, do output to dataset */
   OUTPUT OUT=myOutput n= mean= max= median= stddev= /autoname;
   var roa mtb size;
-  by fyear; /* without gvkey would give full sample statistics */
+  by fyear; /* statistics by fyear */
 run;
 
 /*  No need to make extra datasets if you need statistics on part of the sample => use 'where'  */
