@@ -76,6 +76,15 @@ proc means data=myComp NOPRINT; /* suppress output to screen */
   by fyear; /* statistics by fyear */
 run;
 
+/*  Statistics by year => by sich and fyear */
+proc sort data=myComp; by sich fyear ;run;
+proc means data=myComp NOPRINT; /* suppress output to screen */
+  /* but, do output to dataset */
+  OUTPUT OUT=myOutput n= mean= max= median= stddev= /autoname;
+  var roa mtb size;
+  by sich fyear; /* statistics by sich and fyear */
+run;
+
 /*  No need to make extra datasets if you need statistics on part of the sample => use 'where'  */
 
 /*  Example: full sample (no 'by'), but only for loss firms */
