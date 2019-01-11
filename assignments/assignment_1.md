@@ -28,7 +28,7 @@ Then, give an overview of the frequency (how often 0 years missing, how often 1 
 Some variables in Funda are 'header' (that means, all firms' rows get updated if the value changes).
 Verify if the vvariables 'CIK' (central index key) and 'conm' (Company name) change over the fyears or not (if it doesn't change, it means it is a header variable).
 
-## 5.
+## 5. Wide to long
 
 Consider the following dataset:
 
