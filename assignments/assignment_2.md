@@ -27,7 +27,7 @@ Use the following code to clean up the segment file (i.e. only keep the relevant
 
 ```SAS
 data b_segm (keep = GVKEY datadate STYPE SID IAS CAPXS NAICS NAICSH NAICSS1 NAICSS2 NIS OPS SALES SICS1 SICS2 SNMS SOPTP1 INTSEG);
-set segments.Wrds_segmerged;
+set comp.Wrds_segmerged;
 /* prevent duplicates: use the data when first published (not later years)*/
 if srcdate eq datadate;
 /* select business/operating (or, industrial) segments */
